@@ -1,0 +1,38 @@
+@use "variables" as *;
+
+p {
+    color: $text-color;
+    font-family: "Press Start 2P", serif;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+a {
+    color: $button-color;
+    font-family: "Press Start 2P", serif;
+}
+
+@mixin heading {
+    color: $accent-color;
+}
+h1 {
+    @include heading;
+    font-size: 80px;
+  }
+.main__heading {
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Pixelify Sans", serif;
+    margin-bottom: 0.2em;
+}
+
+.visibleLine::after {
+    content: "|";
+    color: white;
+    font-weight: 100;
+}
+
+.default-text {
+    
+}

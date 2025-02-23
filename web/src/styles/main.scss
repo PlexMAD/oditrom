@@ -1,0 +1,11 @@
+@use "variables" as *;
+@use "text" as *;
+@use "other" as *;
+body {
+    background-color: $background-color;
+}
+
+.section {
+    max-width: 1080px;
+    margin: 0 auto;
+}
