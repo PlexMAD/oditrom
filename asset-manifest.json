@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oditrom/static/css/main.a39ff2c6.css",
+    "main.js": "/oditrom/static/js/main.e7aa783f.js",
+    "static/js/453.c5eaf93b.chunk.js": "/oditrom/static/js/453.c5eaf93b.chunk.js",
+    "index.html": "/oditrom/index.html",
+    "main.a39ff2c6.css.map": "/oditrom/static/css/main.a39ff2c6.css.map",
+    "main.e7aa783f.js.map": "/oditrom/static/js/main.e7aa783f.js.map",
+    "453.c5eaf93b.chunk.js.map": "/oditrom/static/js/453.c5eaf93b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a39ff2c6.css",
+    "static/js/main.e7aa783f.js"
+  ]
+}
