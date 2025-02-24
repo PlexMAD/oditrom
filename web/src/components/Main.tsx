@@ -9,7 +9,7 @@ import othertext from "../texts/other";
 const Main: React.FC = () => {
     const [headingInfo, setHeadingInfo] = useState<string>('');
     const [lineIsVisible, setLineIsVisible] = useState<boolean>(true);
-    const heading = 'oditrom';
+    const heading = 'plexmad';
 
     const fillHeading = () => {
         setHeadingInfo('')
