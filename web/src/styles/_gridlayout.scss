@@ -1,0 +1,22 @@
+@use "variables" as *;
+
+.skills_skillblock {
+    border-radius: 60px;
+    border: 3px solid;
+    margin: 0px 10px;
+    padding: 20px;
+    background-color: rgba(58, 28, 92, 0.3);
+}
+
+.skills__grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.skills__grid-layout > :last-child {
+    grid-column: 1 / -1; 
+    text-align: center;
+  }

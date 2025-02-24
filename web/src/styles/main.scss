@@ -1,11 +1,13 @@
 @use "variables" as *;
 @use "text" as *;
-@use "other" as *;
+@use "gridlayout" as *;
+
 body {
     background-color: $background-color;
+    box-sizing: border-box;
 }
 
-.section {
+.wraper {
     max-width: 1080px;
     margin: 0 auto;
 }

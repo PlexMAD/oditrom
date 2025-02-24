@@ -3,22 +3,35 @@
 p {
     color: $text-color;
     font-family: "Press Start 2P", serif;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 2em;
 }
 
 a {
-    color: $button-color;
+    color: $text-color;
     font-family: "Press Start 2P", serif;
+}
+
+a:hover {
+    color: $other-color
 }
 
 @mixin heading {
     color: $accent-color;
+    font-family: "Press Start 2P", serif;
 }
 h1 {
     @include heading;
-    font-size: 80px;
+    font-size: 84px;
   }
+h2 {
+    @include heading;
+    font-size: 32px;
+}
+h3 {
+    @include heading;
+    font-size: 18px;
+}
 .main__heading {
     font-weight: 600;
     letter-spacing: 3px;
