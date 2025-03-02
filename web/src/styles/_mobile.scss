@@ -1,0 +1,8 @@
+@media (max-width:960px) {
+    .skills__grid-layout {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skills h2, .main p {
+        text-align: center;
+    }
+}

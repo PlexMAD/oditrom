@@ -1,6 +1,7 @@
 @use "variables" as *;
 @use "text" as *;
 @use "gridlayout" as *;
+@use "mobile" as *;
 
 body {
     background-color: $background-color;
@@ -10,4 +11,13 @@ body {
 .wraper {
     max-width: 1080px;
     margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    a {
+        margin: 1em 0;
+    }
+    text-align: center;
 }

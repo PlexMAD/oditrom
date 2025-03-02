@@ -33,7 +33,7 @@ const Main: React.FC = () => {
             {/* секцию снизу можно было вынести в отдельный компонент во избежание ререндера всей страницы */}
             <section className="wraper main">
                 <h1 className={`main__heading ${lineIsVisible ? "visibleLine" : ""}`}>{headingInfo}</h1>
-                <p>Меня зовут Александр, обучаюсь в Московском Политехе на 3 курсе направления "Веб-технологии", на данном сайте расположена информация о моих знаниях и хардскиллах.</p>
+                <p>Меня зовут Александр, обучаюсь в Московском Политехе на 3 курсе направления "Веб-технологии", на данном сайте-резюме расположена информация о моих хардскиллах.</p>
             </section>
             <section className="wraper skills">
                 <h2>Знания</h2>
@@ -45,8 +45,12 @@ const Main: React.FC = () => {
                     <SkillBlock title="Дополнительно" text={othertext}></SkillBlock>
                 </div>
             </section>
-            <footer className="wraper" style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100px" }}>
-                <a href="https://t.me/lowpriorityabuzer">Telegram</a>
+            <footer className="wraper">
+                <nav>
+                    <a href="https://t.me/lowpriorityabuzer">Telegram</a>
+                    <a href="https://github.com/PlexMAD">GitHub</a>
+                    <a href="mailto:fulltiltxixixixi@gmail.com">Почта: fulltiltxixixixi@gmail.com</a>
+                </nav>
             </footer>
 
         </div>
