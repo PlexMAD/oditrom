@@ -29,7 +29,7 @@ const Main: React.FC = () => {
                 <nav>
                     <a href="https://t.me/lowpriorityabuzer">Telegram</a>
                     <a href="https://github.com/PlexMAD">GitHub</a>
-                    <a href="mailto:fulltiltxixixixi@gmail.com" className="mail-link">Почта:fulltiltxixixixi@gmail.com</a>
+                    <a href="mailto:fulltiltxixixixi@gmail.com" className="mail-link">fulltiltxixixixi@gmail.com</a>
                 </nav>
             </footer>
 
