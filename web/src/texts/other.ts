@@ -1,12 +1,13 @@
 const othertext = `
-  Уверенное знание английского языка на разговорном уровне.<br>
-  Linux.<br>
-  Python: Django + DRF.<br>
-  Docker: Основы Docker и docker compose.<br>
+  Git: Работа с коммитами, ветками, пуллреквестами<br>
+  Python | Django + DRF.<br>
   СУБД и SQL.<br>
+  Docker: Основы Docker и docker compose.<br>
+  Linux.<br>
   Ansible.<br>
+  ООП.<br>
   Знание паттернов проектирования приложений.<br>
-  ООП.
+  Уверенное знание английского языка на разговорном уровне.
 `;
 
 export default othertext;
