@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import SkillBlock from "./SkillBlock";
 import htmltext from "../texts/html";
 import csstext from "../texts/css";
 import jststext from "../texts/jsts";
-import gittext from "../texts/framework";
 import othertext from "../texts/other";
 import DynamicHeading from "./DynamicHeading"
 import frameworktext from "../texts/framework";
@@ -13,7 +12,7 @@ const Main: React.FC = () => {
         <div>
             <section className="wraper main">
                 <DynamicHeading></DynamicHeading>
-                <p>Меня зовут Александр, обучаюсь в Московском Политехе на 3 курсе направления "Веб-технологии", на данном сайте-резюме расположена информация о моих хардскиллах.</p>
+                <p>Меня зовут Александр, очно обучаюсь в Московском Политехе на 3 курсе направления "Веб-технологии"(смогу свободно совмещать работу с учебой), на данном сайте-резюме расположена информация о моих хардскиллах.</p>
             </section>
             <section className="wraper skills">
                 <h2>Знания</h2>
