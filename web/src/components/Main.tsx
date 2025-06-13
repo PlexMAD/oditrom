@@ -12,7 +12,7 @@ const Main: React.FC = () => {
         <div>
             <section className="wraper main">
                 <DynamicHeading></DynamicHeading>
-                <p>Меня зовут Александр, очно обучаюсь в Московском Политехе на 3 курсе направления "Веб-технологии"(смогу свободно совмещать работу с учебой), на данном сайте-резюме расположена информация о моих хардскиллах.</p>
+                <p>Меня зовут Александр, в данный момент работаю в <span style={{color: '#226459'}}>Kaspersky</span></p>
             </section>
             <section className="wraper skills">
                 <h2>Знания</h2>
