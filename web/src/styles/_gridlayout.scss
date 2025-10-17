@@ -16,7 +16,17 @@
     column-gap: 20px;
 }
 
-.skills__grid-layout > :last-child {
+
+.skills__grid-layout > :last-child, .skills__grid-layout > :nth-child(5) {
     grid-column: 1 / -1; 
     text-align: center;
   }
+
+
+.experience__grid-layout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 10px;
+    column-gap: 10px;
+}

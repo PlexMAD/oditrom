@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-    color: $other-color
+    color: $other-color;
 }
 
 @mixin heading {
@@ -23,7 +23,7 @@ a:hover {
 h1 {
     @include heading;
     font-size: 84px;
-  }
+}
 h2 {
     @include heading;
     font-size: 32px;
@@ -31,6 +31,11 @@ h2 {
 h3 {
     @include heading;
     font-size: 18px;
+}
+h4 {
+    @include heading;
+    font-size: 14px;
+    color: $work-period;
 }
 .main__heading {
     font-weight: 600;
@@ -47,5 +52,4 @@ h3 {
 }
 
 .default-text {
-    
 }
